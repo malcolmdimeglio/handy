@@ -9,7 +9,7 @@ sudo apt-get -y install vim
 sudo apt-get -y install git
 sudo apt-get -y install gitg
 sudo apt-get -y install gitk
-sudo apt-get -y install ssh (meta package with openssh-client & openssh-server)
+sudo apt-get -y install ssh  # (meta package with openssh-client & openssh-server)
 sudo apt-get -y install ipv6calc
 sudo apt-get -y install minicom  # Usefull to access Danube via Serial
 sudo apt-get -y install sshpass  # Useful to tunel scp
@@ -175,7 +175,7 @@ ssh-keygen -t rsa -b 1024
 # Configure local git info
 git config --global user.name "Malcolm Dimeglio"
 git config --global user.email johndoe@gmail.com
-git config --global core.filemode true # will track `chmod` modification
+git config --global core.filemode true  # will track `chmod` modification
 git config --global push.default simple
 
 ###############################################
